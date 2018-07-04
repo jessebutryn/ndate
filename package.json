@@ -1,0 +1,15 @@
+{
+  "name": "ndate",
+  "version": "1.0.0",
+  "description": "Tool for working with dates",
+  "main": "ndate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Butryn",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "extsprintf": "^1.4.0",
+    "moment": "^2.22.2"
+  }
+}
