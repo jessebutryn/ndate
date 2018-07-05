@@ -10,6 +10,7 @@
   "license": "GPL-2.0",
   "dependencies": {
     "extsprintf": "^1.4.0",
+    "lodash": "^4.17.10",
     "moment": "^2.22.2"
   }
 }
