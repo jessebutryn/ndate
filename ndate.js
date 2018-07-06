@@ -12,8 +12,8 @@ if (argv.length === 0) {
 	if (argv[0].charAt(0) === '-' || argv[0].charAt(0) === '+') {
 		getOffset(moment(), argv[0]);
 	} else {
-		var dateOne = checkDate(argv[0]);
-		formatDate('time 1', dateOne);
+		var d1 = checkDate(argv[0]);
+		formatDate('time 1', d1);
 	}
 } else if (argv.length === 2) {
 	if (argv[1].charAt(0) === '-' || argv[1].charAt(0) === '+') {
